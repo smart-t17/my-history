@@ -1,0 +1,49 @@
+.container {
+  height: auto;
+}
+.subContainer {
+  padding: 0 50px;
+  .subTitle {
+    font-family: Helvetica Neue;
+    font-size: 18pt;
+    color: #f92121;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 8px;
+  }
+
+  .serverStatus {
+    padding: 30px 20px;
+    border: 1px solid gray;
+    width: 400px;
+    font-family: Helvetica Neue;
+    font-size: 36pt;
+    font-weight: normal;
+    overflow: auto;
+  }
+  .table {
+    font-family: Helvetica Neue;
+
+    font-size: 18pt;
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+      font-weight: normal;
+      color: #5c5c5c;
+    }
+    td,
+    th {
+      text-align: center;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f0f0f0;
+    }
+    tr {
+      border: 1px solid #dddddd;
+    }
+  }
+}

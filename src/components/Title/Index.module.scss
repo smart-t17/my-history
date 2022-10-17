@@ -1,0 +1,21 @@
+.headContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 0 20px;
+}
+.title {
+  font-family: Helvetica Neue;
+  font-size: 72pt;
+  color: #0a23a6;
+  font-weight: bold;
+  text-align: end;
+}
+
+.nameLabel {
+  font-family: Helvetica Neue;
+  font-size: 36pt;
+  color: #086607;
+  font-weight: bold;
+  text-align: end;
+}
